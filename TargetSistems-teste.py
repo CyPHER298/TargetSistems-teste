@@ -1,4 +1,4 @@
-# TESTE 1
+print("# TESTE 1")
 indice = 13
 soma = 0
 k = 0
@@ -7,7 +7,7 @@ while k < indice:
     soma = soma + k
     print(soma)
 
-# TESTE 2
+print("\n\n# TESTE 2\n")
 
 #Aplicando um input para receber a informação
 n = int(input("Que termo deseja encontrar: "))
@@ -26,7 +26,7 @@ else:
         count += 1
     print(termo)
 
-# TESTE 3
+print("\n\n# TESTE 3\n")
 import json
 from statistics import median
 
@@ -62,7 +62,7 @@ print(f'O menor valor deste mês foi de R${valor_min:.2f}')
 print(f"R${media:.2f} foi a média deste mês nos dias que tiveram algum valor")
 
 
-# TESTE 4
+print("\n\n# TESTE 4\n")
 # declarados todos os valores de cada estado
 sp = 67863.43
 rj = 36678.66
@@ -79,13 +79,13 @@ es_porcent = es / cem_porcent * 100
 outros_porcent = outros / cem_porcent * 100
 
 print(f"A fatia percentual de cada estado:\n"
-      f"São Paulo: {sp_porcent:.2f}%\n "
-      f"Rio de Janeiro: {rj_porcent:.2f}%\n "
-      f"Minas Gerais: {mg_porcent:.2f}%\n "
-      f"Espírito Santo: {es_porcent:.2f}%\n "
+      f"São Paulo: {sp_porcent:.2f}%\n"
+      f"Rio de Janeiro: {rj_porcent:.2f}%\n"
+      f"Minas Gerais: {mg_porcent:.2f}%\n"
+      f"Espírito Santo: {es_porcent:.2f}%\n"
       f"Outros estados: {outros_porcent:.2f}%")
 
-#TESTE 5
+print("\n\n# TESTE 5\n")
 
 # Inserindo a palavra
 string = input("Inserir a string: ")
